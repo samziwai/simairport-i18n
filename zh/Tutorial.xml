@@ -1,65 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
-        <EasyTutorial1>The Basics of SimAirport</EasyTutorial1>
-        <Expansion>Large Airport Expansion</Expansion>
-        <Baggage>Baggage Systems</Baggage>
+        <EasyTutorial1>SimAirport的基础知识</EasyTutorial1>
+        <Expansion>扩建大型机场</Expansion>
+        <Baggage>行李输送系统</Baggage>
         <FuelPA>PA Systems and Fuel</FuelPA>
-        <Scheduling>Scheduling Workers</Scheduling>
-        <FoodStores>Food and Shopping</FoodStores>
-        <NeedsNegotiate>Airline Needs and Negotiations</NeedsNegotiate>
+        <Scheduling>安排员工</Scheduling>
+        <FoodStores>食品和购物</FoodStores>
+        <NeedsNegotiate>航空公司的需求和谈判</NeedsNegotiate>
     </Titles>
-    <EndTutorial>Close</EndTutorial>
-    <NextButton>Next</NextButton>
-    <SkipObjective>Skip</SkipObjective>
+    <EndTutorial>关闭</EndTutorial>
+    <NextButton>下一步</NextButton>
+    <SkipObjective>跳过</SkipObjective>
     <EasyTutorial1>
-        <IntroductionTitle>Welcome to SimAirport!</IntroductionTitle>
-        <Introduction>This is the first of the easy tutorials. Throughout, there will be helpful images available by clicking the blue info icon with the arrow.
+        <IntroductionTitle欢迎来到simairport！</IntroductionTitle>
+        <Introduction>这是第一个简单的教程。在整个过程中，通过点击带有箭头的蓝色信息图标，将会出现有帮助的图像。
 
-This airport is Learnyville's gateway to the world. Its small terminal has the basics: transport, ticketing, security, a departure lounge, a (broken) aircraft gate, and baggage collection.
+这个机场是利尔尼维尔通往世界的大门。它的小航站楼基本设施齐全:运输、售票、安检、候机室、(破损的)登机门和收集行李。
 
-The problem is they never finished building it!</Introduction>
-        <CameraMovement>Use WASD, the arrow keys, or move your cursor to the edges of the screen to move the camera. You can even hold down the middle mouse button and move your cursor.
+问题是他们从来没有建造完成!</Introduction>
+        <CameraMovement>用 WASD, 箭头, 或者将光标移动到屏幕边缘来移动相机。您甚至可以按住鼠标中间的按钮并移动光标。
 
-In the options screen, you can adjust how fast these controls move the camera.
+在“选项”中，您可以调整这些控件移动相机的速度。
 
-You can also change which keys do what commands.</CameraMovement>
-        <TutorialWindow>You can move the tutorial window by holding the left-mouse button and dragging it to a new position.
+您还可以更改哪些键执行什么命令。</CameraMovement>
+        <TutorialWindow>您可以通过按住鼠标左键并将其拖动到新的位置来移动教程窗口。
         
-Most windows can be dragged, and most also let you close them with the X button. This window can be minimized/maximized if you need it to take up less space.</TutorialWindow>
-        <TutorialWindowObjective>Drag the window around!</TutorialWindowObjective>
-        <UserInterface>This complex simulation can be simple to understand if you take a few moments to look around the user interface.
+大多数窗口可以拖拽，也可以用X按钮关闭。如果需要占用更少的空间，可以最小化/最大化此窗口。</TutorialWindow>
+        <TutorialWindowObjective>试下拖动窗口吧！</TutorialWindowObjective>
+        <UserInterface>如果您花一些时间浏览界面，可以很容易理解这种复杂的模拟。
 
-You have general stats at the top, time controls in the top right, various airport operations to the bottom left, and a selection of heatmaps to the right.
+顶部有一般统计数据，在右上角有时间控制，在左下角有各种机场操作选项，在右侧有各种热图信息的选择。
 
-Press escape to close any top window (this will not work on the tutorial window).</UserInterface>
-        <ConstructIntroTitle>The Foundations of Construction</ConstructIntroTitle>
-        <ConstructIntro>One of the most important aspects of SimAirport is construction.
+按 escape 关闭任何顶部窗口(这在教程窗口上不起作用)。</UserInterface>
+        <ConstructIntroTitle>基础建设</ConstructIntroTitle>
+        <ConstructIntro>SimAirport最重要的方面之一是建设。
 
-Objects and structures must be built by workmen. All inside rooms must be built on foundations, and once completed, any indoor items can be placed in there.</ConstructIntro>
-        <Hire4Workmen>When you designate an area for construction, the building materials are automatically ordered.
+所有建筑和结构必须由工人建造。所有的室内房间都必须建在地基上，一旦完成，任何室内物品都可以放在那里。</ConstructIntro>
+        <Hire4Workmen>当你设定一个建筑区域时，建筑材料会自动订购。
 
-Materials are delivered by trucks down the main road, to the Delivery zone (south west). The materials are then collected by Workmen to be placed around the airport. Any spare materials, such as from cancelled projects, are put into storage.</Hire4Workmen>
-        <Hire4WorkmenObjective>Hire at least 6 Workmen (in total), available in the staff hub (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
-        <DragFoundation>From the Build Menu, select Construction, and then select Foundation. Not sure what a tool or object is? You can hover over it for a description.
+所有物资都会由卡车沿着主干道运送到交货区(西南方向)。工人们将收集到的材料放在机场周围，任何多余的材料，例如被取消的项目，都被储存起来。</Hire4Workmen>
+        <Hire4WorkmenObjective>雇用至少6名工人(总计)，可在员工中心使用 (KeyboardFunctions.StaffHub).</Hire4WorkmenObjective>
+        <DragFoundation>从"建造"菜单中，选择“建设”，然后选择“地基”。 仍然不确定这是什么工具或者是物体?你可以将鼠标悬停在图标上来得到它的描述。
         
-You will need to wait for the workers to build it, but you can speed up time with the controls in the top right corner of the screen, or by pressing 1/2/3 for speeds and SPACE to pause.</DragFoundation>
-        <DragFoundationObjective>Drag the foundation over the striped area next to the departure lounge. Made a mistake? Left-click the project to cancel before the Workmen begin.</DragFoundationObjective>
-        <BuildingMistakes>Not only can you cancel a project during construction by left-clicking, but you can also remove foundations using the Demolish tool (KeyboardFunctions.DemolishTool).
+你需要等待工人们来建造这个物体, 但是你可以用屏幕右上角的控制键来加速时间，或者按1/2/3键控制时间速度快慢，最后按 space 键 暂停。</DragFoundation>
+        <DragFoundationObjective>将粉底拖到候机室旁边的条状区域。犯了一个错误?在工人开始之前，左键单击项目以取消。</DragFoundationObjective>
+        <BuildingMistakes>您不仅可以通过左键单击取消施工期间的项目，而且还可以使用拆卸工具删除地基 (KeyboardFunctions.DemolishTool).
 
-Or, if you've accidentally misplaced some objects, use the Clear tool (KeyboardFunctions.ClearTool). Not sure which tool to use? Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
+或者，如果你不小心放错了物体，使用“清除”工具 (KeyboardFunctions.ClearTool). 还是不确定用哪种工具？Press KeyboardFunctions.BuildModifier to auto-detect the remove tool.
 
-You can increase or decrease the workers' priority of the project in the left-click menu too!</BuildingMistakes>
-        <GuestNeedsTitle>Passenger Needs and Zoning</GuestNeedsTitle>
-        <GuestNeeds>Passengers have various needs, such as hunger, bladder, and boredom. Our airport currently deals with bladder needs with the restrooms.
+您也可以在左键菜单中提升或降低项目工作人员的优先级!</BuildingMistakes>
+        <GuestNeedsTitle>旅客需求及划分区域</GuestNeedsTitle>
+        <GuestNeeds>乘客有各种各样的需求，如饥饿、膀胱和无聊。我们的机场目前正在处理厕所对膀胱的需求。
 
-Dealing with these will raise our passengers' satisfaction levels, which will improve our chances of getting better airline contracts.</GuestNeeds>
-        <Boredom>An Arcade should help our passengers feel less bored. To do this, we need to zone an area for it.
-
-Zones designate areas where passengers and staff can use certain facilities and objects. You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
-        <BoredomObjective>Find the Zones panel, and fill the new area with an Arcade zone. You can zone over partially or fully constructed objects.</BoredomObjective>
-        <ProblemArcadeTitle>How to Fix Problems</ProblemArcadeTitle>
-        <ProblemArcade>Anytime a room has a problem, it will turn red. Hover over it to see what it needs. Most issues are either it is the wrong size, or it is missing objects.
+处理这些问题将提高我们乘客的满意度，这将提高我们获得更好的航空合同的机会。</GuestNeeds>
+        <Boredom>一个娱乐中心可以帮助我们的乘客感到不那么无聊。要做到这一点，我们需要为它划出一个区域。
+区域是指乘客和工作人员可以使用某些设施和物品的区域。 You can toggle zone visualizations with KeyboardFunctions.ZoneToggle.</Boredom>
+        <BoredomObjective>找到区域面板，并用一个“娱乐区域”填充新区域。您可以在部分或完全构造的对象上划分区域。</BoredomObjective>
+        <ProblemArcadeTitle>如何解决问题</ProblemArcadeTitle>
+        <ProblemArcade>只要房间有问题，它就会变红色。悬停在它上面看看它需要什么。大多数问题不是大小不对，就是缺少相关物体。
 
 Press KeyboardFunctions.RotateObject or middle-mouse-click to rotate an object. Right click on a placed object to cancel or delete it.</ProblemArcade>
         <ProblemArcadeObjective>Fix the problems of the Arcade until it is functional!</ProblemArcadeObjective>
