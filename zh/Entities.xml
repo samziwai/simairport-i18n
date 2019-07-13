@@ -525,7 +525,7 @@
         </SecurityExit>
         <Sink>
             <name>洗手池</name>
-            <description>当乘客们感到有些脏时，可以用洗手池洗手或清洁脸部。</description>
+            <description>当乘客们感到有些脏时，可以用洗手池洗手或洗脸。</description>
         </Sink>
         <SlidingDoor>
             <name>滑动门</name>
