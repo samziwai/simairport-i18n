@@ -402,11 +402,11 @@
             <description />
         </HealthFoodKiosk>
         <HolidayTree>
-            <name>假期树</name>
+            <name>圣诞树</name>
             <description>非常精致的修饰。 看上去几乎像棵圣诞树，但一整年都很适宜。 乘客通常很欣赏这种东西。</description>
         </HolidayTree>
         <IDCheckStand>
-            <name>ID检查台</name>
+            <name>身份证检查台</name>
             <description>在安检区内，这是乘客安检流程的第一步。</description>
         </IDCheckStand>
         <KitchenSink>
@@ -430,7 +430,7 @@
             <description>能有轻轨服务通往您的机场，提供地铁的终点站。</description>
         </LRTPlatform>
         <MediumHangar>
-            <name>中等机库</name>
+            <name>中型机库</name>
             <description>中型机库，最多有3个飞机位置。</description>
         </MediumHangar>
         <MetalDetector>
@@ -560,7 +560,7 @@
             <description>没有托运行李的乘客能用自动票务亭打印登机牌，无需工作人员的协助。</description>
         </TicketingKiosk>
         <ToiletStall>
-            <name>厕所间</name>
+            <name>厕所</name>
             <description>满足男女乘客的膀胱需求。</description>
         </ToiletStall>
         <ToolboxLocker>
